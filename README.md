@@ -42,8 +42,7 @@ What suggestions do you have for next steps?
 #### Outline of project
 
 - [Link to notebook 1](https://github.com/ndhomse/food-demand-forecasting/blob/main/notebook/Food-Demand-Forecasting.ipynb)
-- [Link to notebook 2]()
-- [Link to notebook 3]()
+
 
 
 ##### Contact and Further Information
