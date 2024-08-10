@@ -29,20 +29,33 @@ The input data contains the following:
 
 #### Methodology
 What methods are you using to answer the question?
-* Time Series techniques, Random Forest, XGBoost
+* Time Series techniques using sktime, LinearRegression, XGBoost, Random Forest
 
-#### Results
+#### Results / Findings
 What did your research find?
-* WIP
+* The number of orders distribution is very right skewed. Which means we found a number of outliers with large number of orders. Although the max number of orders is 24299, less than 0.75% of the instances have values > 2000, the median value is only 136 and 75% of the values are 324 or less
+* Beverages category orders comprise 28% of all occurrences and is at least 4x the other categories
+* Even though 57% of the order occurrences are from TYPE_A centers, TYPE_B generates more orders on average
+* Lower prices clearly attract more orders
+* Thai cuisine has about 25% more meal options than other cuisines. However, Italian cuisine seems to be more popular and generates the highest number of orders on average
+* Emailer and Homepage promos result in 3x orders on average
+* Larger Op Areas generate larger number of orders on average
 
-#### Next steps
+
+#### Next steps and recommendations
 What suggestions do you have for next steps?
-* WIP
+Recommend working with the business and tech team to look at `skforecast` and `sktime` frameworks and perhaps the `Prophet` model to figure out how the models could be trained on a hierarchical multi-series dataset and forecast using all the available features in the dataset
+From business perspective, following recommendations could help the business grow its orders,
+* Leveraging the emailer and homepage promos
+* Further including looking at other modes/channels of advertising 
+* Review and publicize any discounts and promotions that will reduce the prices for the consumers
+* Review what is making the TYPE_B centers generate higher orders and implement for other center types
+* Review what is making the Italian cuisine offerings generate higher orders and see if some elements could be enhanced for other cuisines. Also, review the possibility of enhancing the Italian menu further
+
 
 #### Outline of project
+* Work done for the complete analysis including statistics, observations, and visualizations available in:
 
-- [Link to notebook 1](https://github.com/ndhomse/food-demand-forecasting/blob/main/notebook/Food-Demand-Forecasting.ipynb)
+- [Jupiter Notebook used](https://github.com/ndhomse/food-demand-forecasting/blob/main/notebook/Food-Demand-Forecasting.ipynb)
+- Detailed presentation of the project can be found at [Project Presentation](https://github.com/ndhomse/food-demand-forecasting/blob/main/presentation/Food-Demand-Forecasting-Report.pdf)
 
-
-
-##### Contact and Further Information
