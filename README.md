@@ -42,7 +42,8 @@ The input data contains the following:
 
 #### Next steps and recommendations
 
-Recommend working with the business and tech team to look at `skforecast` and `sktime` frameworks and perhaps the `Prophet` model to figure out how the models could be trained on a hierarchical multi-series dataset and forecast using all the available features in the dataset
+Recommend working with the business and tech team to look at `skforecast` and `sktime` frameworks and perhaps the `Prophet` model to figure out how the models could be trained on a hierarchical multi-series dataset and forecast using all the available features in the dataset.
+
 From business perspective, following recommendations could help the business grow its orders,
 * Leveraging the emailer and homepage promos
 * Further including looking at other modes/channels of advertising 
