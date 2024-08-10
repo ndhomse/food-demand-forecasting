@@ -2,6 +2,9 @@
 
 **Niranjan Dhomse**
 
+* Work done for the complete analysis including statistics, observations, and visualizations available in: [Jupiter Notebook used](https://github.com/ndhomse/food-demand-forecasting/blob/main/notebook/Food-Demand-Forecasting.ipynb)
+- Detailed presentation of the project can be found at [Project Presentation](https://github.com/ndhomse/food-demand-forecasting/blob/main/presentation/Food-Demand-Forecasting-Report.pdf)
+
 #### Executive summary
 A meal delivery company which operates in multiple cities via various fulfillment centers for dispatching meal orders to their customers. The client wants you to help these centers with demand forecasting for upcoming weeks so that these centers will plan the stock of raw materials accordingly.
 
@@ -46,11 +49,4 @@ From business perspective, following recommendations could help the business gro
 * Review and publicize any discounts and promotions that will reduce the prices for the consumers
 * Review what is making the TYPE_B centers generate higher orders and implement for other center types
 * Review what is making the Italian cuisine offerings generate higher orders and see if some elements could be enhanced for other cuisines. Also, review the possibility of enhancing the Italian menu further
-
-
-#### Outline of project
-* Work done for the complete analysis including statistics, observations, and visualizations available in:
-
-- [Jupiter Notebook used](https://github.com/ndhomse/food-demand-forecasting/blob/main/notebook/Food-Demand-Forecasting.ipynb)
-- Detailed presentation of the project can be found at [Project Presentation](https://github.com/ndhomse/food-demand-forecasting/blob/main/presentation/Food-Demand-Forecasting-Report.pdf)
 
